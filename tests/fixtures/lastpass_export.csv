@@ -1,0 +1,13 @@
+url,username,password,totp,extra,name,grouping,fav
+https://reddit.com,user@example.com,redditpass999,otpauth://totp/Reddit?secret=QRSTUVWXYZ123456,My Reddit notes,Reddit,Social,1
+https://amazon.com,user@example.com,differentpass456,,,Amazon,Shopping,0
+http://sn,,,,,Important Note,Personal,0
+http://sn,,,,"This is my important secure note with some sensitive information that I need to keep safe.",Server Credentials,Work,1
+https://netflix.com,,,netflixpass777,Family account,Netflix,Entertainment,1
+https://gitlab.com,dev@example.com,gitlabpass321,TOTPSECRET456,Development notes,GitLab,Development,0
+https://trello.com,testuser1@example.com,trellopass123,,,Trello,,0
+https://trello.com,testuser2@example.edu,worktrellopass456,,,Trello,,0
+https://slack.com,user@example.com,slackpassword,,,Slack,Work,0
+http://,TestUser123,pass9W0rd!,,,Virtual Regatta,,
+http://,TestUser123,abc123XYZ456,,,bitbucket,,
+https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed,user@example.com,linkedinpass789,,Professional networking,LinkedIn,Social,1

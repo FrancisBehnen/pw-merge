@@ -1,0 +1,46 @@
+# ============================================
+# AI ASSISTANT SECURITY BLACKLIST 
+# ============================================
+# This file prevents AI assistants (Claude Code, etc.)
+# from reading password files and sensitive data
+# DO NOT modify without careful security review
+
+# Password manager export formats
+*.csv
+*.json
+*.xml
+*.1pif
+*.1pux
+*.kdbx
+*.kdb
+*.psafe3
+*.agilekeychain
+*.opvault
+
+# Input/output directories
+input/
+output/
+data/
+exports/
+imports/
+passwords/
+vaults/
+
+# Test data that might contain sensitive info
+test_data/
+test_passwords/
+sample_data/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Logs that might contain passwords
+*.log
+logs/

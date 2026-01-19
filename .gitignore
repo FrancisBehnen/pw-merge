@@ -1,0 +1,90 @@
+# ============================================
+# PASSWORD SECURITY - CRITICAL
+# ============================================
+# These patterns prevent password files from being committed
+# DO NOT modify without careful security review
+
+# Password manager export formats
+*.csv
+*.json
+*.xml
+*.1pif
+*.1pux
+*.kdbx
+*.kdb
+*.psafe3
+*.agilekeychain
+*.opvault
+
+# Exception: allow test fixtures (these contain fake data only)
+!tests/fixtures/*.csv
+
+# Test output files (generated during testing)
+tests/test_*.csv
+tests/*_output*.csv
+tests/*_missing*.csv
+
+# Input/output directories
+input/
+output/
+data/
+exports/
+imports/
+passwords/
+vaults/
+
+# Test data that might contain sensitive info
+test_data/
+test_passwords/
+sample_data/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# ============================================
+# PYTHON
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ============================================
+# LOGS
+# ============================================
+*.log
+logs/

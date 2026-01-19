@@ -1,0 +1,8 @@
+username,username2,username3,title,password,note,url,category,otpUrl
+user@example.com,,,GitHub,existingpass123,My GitHub account,https://github.com,Development,
+john@example.com,,,Twitter,twitterpass789,Social media account,https://twitter.com,Social,otpauth://totp/Twitter?secret=ABCDEFGHIJKLMNOP
+alice@test.com,alice2@test.com,,Dropbox,dropboxpass111,Cloud storage,https://dropbox.com,Storage,
+,,,No Password Entry,,This has no password,https://example.com,,
+bob@example.com,,,Bad OTP,badotppass222,Has non-standard OTP,https://example.com/login,,MYSECRETKEY123
+TestUser123,,,Virtual Regatta,pass9W0rd!,,,,
+TestUser123,,,bitbucket,abc123XYZ456,,,,

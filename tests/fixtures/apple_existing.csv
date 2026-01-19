@@ -1,0 +1,9 @@
+Title,URL,Username,Password,Notes,OTPAuth
+github.com (user@example.com),https://github.com,user@example.com,existingpass123,My GitHub account,
+amazon.com (user@example.com),https://amazon.com,user@example.com,amazonpass456,Shopping account,otpauth://totp/Amazon?secret=JBSWY3DPEHPK3PXP
+trello.com (testuser1@example.com),https://trello.com,testuser1@example.com,trellopass123,,
+trello.com (testuser2@example.edu),https://trello.com,testuser2@example.edu,worktrellopass456,,
+slack.com (user@example.com),https://slack.com,user@example.com,slackpassword ,Slack workspace,
+bitbucket.org (TestUser123),https://bitbucket.org/,TestUser123,abc123XYZ456,,
+username.missing (),https://username.missing/,,randompwd123,,
+linkedin.com (user@example.com),https://www.linkedin.com/,user@example.com,linkedinpass789,LinkedIn account,
